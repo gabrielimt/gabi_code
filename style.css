@@ -1,0 +1,36 @@
+:root{
+  --texto-principal: #000;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+a{
+  text-decoration: none;
+  color: var(--texto-principal);
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 50px;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.navigation nav li{margin-bottom: 8px;}
+
+.navigation nav li:hover{
+  font-weight: 800;
+  font-size: 20px;
+  position: relative;
+  left: -10px;
+}
