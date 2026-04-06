@@ -45,3 +45,25 @@ a{
 }
 
 header, main{width: 90vw;}
+
+#home{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  margin: 100px 10px;
+}
+
+#home article{
+  max-width: 40%;
+}
+
+#home picture img{
+  width: 400px;
+  height: 500px;
+  /* remover width e height quando colocar a imagem principal*/
+  
+  border-radius: 32px;
+}
